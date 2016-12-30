@@ -6,7 +6,7 @@ You can create your own Assistive Touch
 
 #### Manually
 
-Simply drag **AssistiveTouch** file in your project file & add below code in your didlaunchwithoptions method
+Simply drag **AssistiveTouch** file in your project & add below code in your didlaunchwithoptions method
 
 ```swift
 DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + Double(Int64(3 * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC), execute: {() -> Void in
